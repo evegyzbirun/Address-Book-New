@@ -37,7 +37,7 @@ function Contact(firstName, lastName, phoneNumber) {
 }
 
 Contact.prototype.fullName = function () {
-  return this.firstName + " " + this.lastName;
+  return this.firstName + " " + this.lastName + " " + this.phoneNumber;
 };
 
 // User Interface Logic ---------
